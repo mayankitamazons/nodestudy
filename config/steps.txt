@@ -1,0 +1,29 @@
+$ adb -s <device name> reverse tcp:8081 tcp:8081
+npx react-native start
+npx react-native run-android
+
+
+https://github.com/jaydipvidhate/react-native-instagram-clone.git
+
+C:\Users\EM013709\AppData\Local\Android\Sdk\emulator
+.\emulator.exe -list-avds
+.\emulator.exe -avd "NEW_PHONE"
+
+
+
+adb -s "NEW_PHONE" reverse tcp:5037 tcp:5037
+
+create react native app 
+npx react-native init AwesomeProject
+
+
+
+
+https://github.com/kriasoft/relay-starter-kit
+
+link assets folder 
+npx react-native-asset
+
+gredlew clean 
+cd android 
+./gradlew clean
